@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection Using Machine Learning
 
-## 📌 Project Overview
+## Project Overview
 
 Credit card fraud is a major challenge in the financial industry due to the increasing number of digital transactions. This project focuses on building a machine learning-based fraud detection system that identifies fraudulent credit card transactions while handling highly imbalanced datasets.
 
@@ -8,7 +8,7 @@ The project applies multiple classification algorithms and compares their perfor
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Detect fraudulent credit card transactions using machine learning models.
 - Handle class imbalance using Synthetic Minority Oversampling Technique (SMOTE).
@@ -18,7 +18,7 @@ The project applies multiple classification algorithms and compares their perfor
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Programming Language
 - Python
@@ -42,7 +42,7 @@ The project applies multiple classification algorithms and compares their perfor
 
 ---
 
-# 🔍 Project Workflow
+# Project Workflow
 
 ```
 Data Collection
