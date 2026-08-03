@@ -68,7 +68,7 @@ Fraud Prediction
 
 ---
 
-# 📊 Exploratory Data Analysis
+# Exploratory Data Analysis
 
 Performed analysis includes:
 
@@ -81,7 +81,7 @@ Performed analysis includes:
 
 ---
 
-# ⚙️ Data Preprocessing
+# Data Preprocessing
 
 Steps performed:
 
@@ -99,7 +99,7 @@ SMOTE generates synthetic samples for the minority class, improving model learni
 
 ---
 
-# 🤖 Machine Learning Models
+# Machine Learning Models
 
 The following classification models were implemented:
 
@@ -127,7 +127,7 @@ A gradient boosting algorithm known for high performance on structured datasets 
 
 ---
 
-# 📈 Model Evaluation
+# Model Evaluation
 
 Models were evaluated using:
 
@@ -148,7 +148,7 @@ Visualizes correct and incorrect classifications.
 
 ---
 
-# 🚀 How to Run the Project
+# How to Run the Project
 
 ## Clone Repository
 
@@ -162,7 +162,7 @@ Navigate into the project folder:
 cd credit-card-fraud-detection
 ```
 
-# 💡 Key Learnings
+# Key Learnings
 
 - Understanding real-world fraud detection challenges.
 - Working with highly imbalanced datasets.
@@ -172,7 +172,7 @@ cd credit-card-fraud-detection
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Deploy the model using Flask/FastAPI.
 - Create an interactive fraud monitoring dashboard.
@@ -182,7 +182,7 @@ cd credit-card-fraud-detection
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Sandhya Rani**
 
