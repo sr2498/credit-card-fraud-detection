@@ -182,15 +182,5 @@ cd credit-card-fraud-detection
 
 ---
 
-# Author
-
-**Sandhya Rani**
-
-Master's in Computer Science  
-Machine Learning | Python | Data Science 
-
-New Jersey Institute of Technology (NJIT)
-
-LinkedIn: https://linkedin.com/in/<your-profile>
 
 
