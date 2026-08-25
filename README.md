@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Credit card fraud is a major challenge in the financial industry due to the increasing number of digital transactions. This project focuses on building a machine learning-based fraud detection system that identifies fraudulent credit card transactions while handling highly imbalanced datasets.
+Credit card fraud is a major challenge in the financial industry due to the increasing number of digital transactions. This project focuses on building **a machine learning-based fraud detection system that identifies fraudulent credit card transactions while handling highly imbalanced datasets.**
 
 The project applies multiple classification algorithms and compares their performance using evaluation metrics such as Precision, Recall, F1-Score, and Accuracy.
 
@@ -93,7 +93,7 @@ Steps performed:
 
 ### Why SMOTE?
 
-Credit card fraud datasets are usually highly imbalanced because fraudulent transactions represent only a small percentage of total transactions.
+Credit card fraud datasets are usually **highly imbalanced** because fraudulent transactions represent only a small percentage of total transactions.
 
 SMOTE generates synthetic samples for the minority class, improving model learning and fraud detection performance.
 
