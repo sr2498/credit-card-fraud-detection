@@ -56,31 +56,26 @@ The project evaluates multiple classification algorithms:
 
 Using multiple algorithms makes it possible to compare different approaches and understand which models perform effectively on imbalanced fraud-detection data.
 
-# Project Workflow
+## Project Workflow
 
+```text
+Credit Card Transaction Data
+            ↓
+Exploratory Data Analysis
+            ↓
+     Data Preprocessing
+            ↓
+   Train / Test Split
+            ↓
+Class Imbalance Handling
+          (SMOTE)
+            ↓
+       Model Training
+            ↓
+      Model Evaluation
+            ↓
+     Fraud Prediction
 ```
-Data Collection
-       |
-       ↓
-Data Exploration & Visualization
-       |
-       ↓
-Data Preprocessing
-       |
-       ↓
-Handling Class Imbalance (SMOTE)
-       |
-       ↓
-Model Training
-       |
-       ↓
-Model Evaluation
-       |
-       ↓
-Fraud Prediction
-```
-
----
 
 # Exploratory Data Analysis
 
