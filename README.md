@@ -19,37 +19,42 @@ Special attention is given to handling **class imbalance** using the **Synthetic
 
 ## Objectives
 
-- Detect fraudulent credit card transactions using machine learning models.
-- Handle class imbalance using Synthetic Minority Oversampling Technique (SMOTE).
-- Perform data preprocessing and exploratory data analysis.
-- Train and evaluate multiple classification models.
-- Identify the best-performing model for fraud prediction.
+The main objectives of this project are to:
+
+- Analyze credit card transaction data and identify patterns related to fraudulent activity.
+- Prepare and preprocess transaction data for machine learning.
+- Handle highly imbalanced fraud data using **SMOTE**.
+- Train multiple classification algorithms.
+- Compare model performance using appropriate classification metrics.
+- Evaluate the trade-off between detecting fraudulent transactions and minimizing false fraud alerts.
+- Build a foundation for a practical fraud detection system.
 
 ---
 
-## Technologies Used
+## Technology Stack
 
-### Programming Language
-- Python
+| Area | Technologies |
+|---|---|
+| Programming | Python |
+| Data Processing | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Machine Learning | Scikit-learn |
+| Imbalanced Data Handling | Imbalanced-learn, SMOTE |
+| Advanced ML | XGBoost |
+| Development Environment | Jupyter Notebook, Google Colab |
 
-### Libraries & Frameworks
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn (SMOTE)
+---
 
-### Machine Learning Algorithms
+## Machine Learning Algorithms
+
+The project evaluates multiple classification algorithms:
+
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 - Random Forest Classifier
 - XGBoost Classifier
 
-### Development Environment
-- Jupyter Notebook / Google Colab
-
----
+Using multiple algorithms makes it possible to compare different approaches and understand which models perform effectively on imbalanced fraud-detection data.
 
 # Project Workflow
 
@@ -190,6 +195,3 @@ cd credit-card-fraud-detection
 - Integrate cloud deployment using AWS.
 
 ---
-
-
-
