@@ -1,10 +1,19 @@
-# Credit Card Fraud Detection Using Machine Learning Algorithms
+# Credit Card Fraud Detection Using Machine Learning 
+
+A Machine Learning project designed to identify potentially fraudulent credit card transactions using multiple classification algorithms while addressing the challenge of **highly imbalanced transaction data**.
+
+The project covers the complete machine learning workflow, including **Exploratory Data Analysis (EDA), data preprocessing, class balancing with SMOTE, model training, model evaluation, and fraud prediction**.
+
+---
 
 ## Project Overview
 
-Credit card fraud is a major challenge in the financial industry due to the increasing number of digital transactions. This project focuses on building **a machine learning-based fraud detection system that identifies fraudulent credit card transactions while handling highly imbalanced datasets.**
+Credit card fraud detection is a challenging classification problem because fraudulent transactions typically represent only a very small percentage of all transactions.
 
-The project applies multiple classification algorithms and compares their performance using evaluation metrics such as Precision, Recall, F1-Score, and Accuracy.
+In this project, multiple supervised machine learning algorithms are trained and evaluated to distinguish between **fraudulent and legitimate transactions**.
+
+Special attention is given to handling **class imbalance** using the **Synthetic Minority Oversampling Technique (SMOTE)** and evaluating models using metrics such as **Precision, Recall, F1-Score, Accuracy, and Confusion Matrix**.
+
 
 ---
 
