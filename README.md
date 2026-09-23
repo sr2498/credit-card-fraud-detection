@@ -77,34 +77,70 @@ Class Imbalance Handling
      Fraud Prediction
 ```
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis
 
-Performed analysis includes:
+Exploratory Data Analysis is performed to better understand the dataset before model training.
 
-- Dataset structure inspection
-- Missing value analysis
-- Fraud vs non-fraud transaction distribution
+The analysis includes:
+
+- Dataset structure and feature inspection
+- Missing-value analysis
+- Fraud vs. legitimate transaction distribution
 - Transaction amount analysis
+- Feature distribution analysis
 - Correlation analysis
-- Feature distribution visualization
+- Visualization of transaction pattern
+
+A major focus of the analysis is understanding the imbalance between fraudulent and legitimate transactions.
 
 ---
 
-# Data Preprocessing
+## Data Preprocessing
 
-Steps performed:
+Before training the machine learning models, the dataset is prepared through several preprocessing steps.
 
-- Checked missing values
-- Removed unnecessary features
-- Scaled numerical features
-- Split data into training and testing datasets
-- Applied SMOTE to balance fraud and non-fraud classes
+These include:
 
-### Why SMOTE?
+- Checking for missing values
+- Removing unnecessary features
+- Scaling numerical features
+- Separating features and target variables
+- Splitting data into training and testing datasets
+- Applying SMOTE to address class imbalance
 
-Credit card fraud datasets are usually **highly imbalanced** because fraudulent transactions represent only a small percentage of total transactions.
+---
 
-SMOTE generates synthetic samples for the minority class, improving model learning and fraud detection performance.
+## Handling Class Imbalance with SMOTE
+
+Fraud detection datasets are commonly **highly imbalanced**, meaning legitimate transactions significantly outnumber fraudulent transactions.
+
+For example:
+
+```text
+Legitimate Transactions  ███████████████████████████
+Fraud Transactions       █
+```
+Training directly on highly imbalanced data can cause a model to focus heavily on the majority class.
+
+To address this problem, the project uses **SMOTE (Synthetic Minority Oversampling Technique)**.
+
+SMOTE creates synthetic examples of the minority class based on existing minority-class observations.
+
+```text
+Original Training Data
+        ↓
+Fraud Class = Minority
+        ↓
+       SMOTE
+        ↓
+Additional Synthetic Fraud Samples
+        ↓
+More Balanced Training Data
+```
+
+This gives the machine learning models more minority-class examples from which to learn.
+
+> **Important:** SMOTE should be applied only to the training data after the train/test split. The test dataset should remain unchanged so that model evaluation reflects the original data distribution.
 
 ---
 
