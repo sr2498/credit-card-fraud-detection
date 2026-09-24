@@ -144,7 +144,7 @@ This gives the machine learning models more minority-class examples from which t
 
 ---
 
-# Machine Learning Models
+# Different Machine Learning Models -------------------------------------------------
 
 The following classification models were implemented:
 
